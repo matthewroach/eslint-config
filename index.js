@@ -5,7 +5,7 @@ module.exports = {
 		'prettier',
 		'plugin:@typescript-eslint/recommended',
 	],
-	plugins: ['@typescript-eslint'],
+	plugins: ['@typescript-eslint', 'jsx-a11y'],
 	ignorePatterns: [
 		'.generated/**/*',
 		'**/*.d.ts',
