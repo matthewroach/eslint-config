@@ -22,5 +22,11 @@ module.exports = {
 		'@typescript-eslint/no-explicit-any': 'error',
 		'@next/next/no-html-link-for-pages': ['error', './src/hcamain/src/pages/'],
 		'react/no-children-prop': 'off',
+		'prettier/prettier': [
+			'error',
+			{
+				endOfLine: 'auto',
+			},
+		],
 	},
 }
