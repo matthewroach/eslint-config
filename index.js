@@ -1,5 +1,11 @@
 module.exports = {
-	extends: ['next', 'next/core-web-vitals'],
+	extends: [
+		'next',
+		'next/core-web-vitals',
+		'prettier',
+		'plugin:@typescript-eslint/recommended',
+	],
+	plugins: ['@typescript-eslint'],
 	ignorePatterns: [
 		'.generated/**/*',
 		'**/*.d.ts',
