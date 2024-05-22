@@ -1,6 +1,6 @@
 {
   "name": "@matthewroach/eslint-config",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Shareable ESLint config",
   "publishConfig": {
     "registry": "https://npm.pkg.github.com"
