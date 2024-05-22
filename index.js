@@ -1,4 +1,5 @@
 module.exports = {
+	extends: ['next', 'next/core-web-vitals'],
 	ignorePatterns: [
 		'.generated/**/*',
 		'**/*.d.ts',
