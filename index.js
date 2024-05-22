@@ -4,8 +4,9 @@ module.exports = {
 		'next/core-web-vitals',
 		'prettier',
 		'plugin:@typescript-eslint/recommended',
+		'plugin:prettier/recommended',
 	],
-	plugins: ['@typescript-eslint', 'jsx-a11y'],
+	plugins: ['@typescript-eslint', 'jsx-a11y', 'prettier'],
 	ignorePatterns: [
 		'.generated/**/*',
 		'**/*.d.ts',
