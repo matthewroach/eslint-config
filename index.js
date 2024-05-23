@@ -20,7 +20,7 @@ module.exports = {
 		'no-unused-vars': 'off',
 		'@typescript-eslint/no-unused-vars': 'error',
 		'@typescript-eslint/no-explicit-any': 'error',
-		'@next/next/no-html-link-for-pages': ['error', './src/hcamain/src/pages/'],
+		'@next/next/no-html-link-for-pages': ['error'],
 		'react/no-children-prop': 'off',
 		'prettier/prettier': [
 			'error',
